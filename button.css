@@ -1,0 +1,24 @@
+button {
+
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+}
+
+button:active {
+  background-color: bisque;
+    transform: translateY(4px);
+
+  
+}
+button:hover {
+
+  background-color: bisque;
+
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
